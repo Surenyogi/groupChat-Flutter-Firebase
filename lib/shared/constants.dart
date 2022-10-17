@@ -5,5 +5,5 @@ class Constants {
   static String apiKey = "AIzaSyBViPbVr-Nl-KkL1KmTetdM44QzcrIKjOc";
   static String messagingSenderId = "709928472168";
   static String projectId = "group-chat-app-9ecea";
-  final primaryColor = const Color.fromARGB(255, 255, 108, 50);
+  final primaryColor = Color.fromARGB(255, 24, 147, 188);
 }

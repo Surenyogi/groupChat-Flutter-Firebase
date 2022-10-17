@@ -1,6 +1,7 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:group_chat_app/helper/helper_function.dart';
+import 'package:group_chat_app/pages/auth/login_page.dart';
 import 'package:group_chat_app/pages/home_page.dart';
 import 'package:group_chat_app/services/auth_service.dart';
 
@@ -50,7 +51,7 @@ class _RegisterPageState extends State<RegisterPage> {
                         const Text(
                           'Zee Chat',
                           style: TextStyle(
-                            color: Color.fromARGB(255, 255, 108, 50),
+                            color: Color.fromARGB(255, 24, 147, 188),
                             fontSize: 40,
                             fontWeight: FontWeight.bold,
                           ),
@@ -190,7 +191,7 @@ class _RegisterPageState extends State<RegisterPage> {
                               ),
                             ),
                             child: const Text(
-                              'Crete Account',
+                              'Create Account',
                               style: TextStyle(
                                 color: Colors.white,
                                 fontWeight: FontWeight.w800,
@@ -218,7 +219,7 @@ class _RegisterPageState extends State<RegisterPage> {
                                       decoration: TextDecoration.underline),
                                   recognizer: TapGestureRecognizer()
                                     ..onTap = () {
-                                      nextScreen(context, const RegisterPage());
+                                      nextScreen(context, const LoginPage());
                                     }),
                             ],
                           ),

@@ -50,7 +50,7 @@ class _LoginPageState extends State<LoginPage> {
                         const Text(
                           'Zee Chat',
                           style: TextStyle(
-                            color: Color.fromARGB(255, 255, 108, 50),
+                            color: Color.fromARGB(255, 24, 147, 188),
                             fontSize: 40,
                             fontWeight: FontWeight.bold,
                           ),

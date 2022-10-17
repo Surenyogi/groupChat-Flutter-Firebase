@@ -298,7 +298,7 @@ class _HomePageState extends State<HomePage> {
                     }
                   },
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.green,
+                    backgroundColor: Theme.of(context).primaryColor,
                   ),
                   child: const Text(
                     "Create Group",
