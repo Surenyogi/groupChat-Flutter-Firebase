@@ -2,13 +2,15 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:group_chat_app/helper/helper_function.dart';
-import 'package:group_chat_app/pages/auth/register_page.dart';
-import 'package:group_chat_app/pages/home_page.dart';
-import 'package:group_chat_app/services/auth_service.dart';
-import 'package:group_chat_app/services/database_service.dart';
-import 'package:group_chat_app/shared/constants.dart';
-import 'package:group_chat_app/widgets/widgets.dart';
+
+import '../../pages/auth/register_page.dart';
+import '../../pages/home_page.dart';
+import '../../services/auth_service.dart';
+import '../../services/database_service.dart';
+import '../../shared/constants.dart';
+import '../../widgets/widgets.dart';
+
+import '../../helper/helper_function.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});

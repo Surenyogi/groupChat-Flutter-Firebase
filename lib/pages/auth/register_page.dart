@@ -1,10 +1,10 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:group_chat_app/helper/helper_function.dart';
-import 'package:group_chat_app/pages/auth/login_page.dart';
-import 'package:group_chat_app/pages/home_page.dart';
-import 'package:group_chat_app/services/auth_service.dart';
+import '../../helper/helper_function.dart';
+import '../../pages/auth/login_page.dart';
+import '../../pages/home_page.dart';
 
+import '../../services/auth_service.dart';
 import '../../shared/constants.dart';
 import '../../widgets/widgets.dart';
 

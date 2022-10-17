@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:group_chat_app/pages/auth/login_page.dart';
-import 'package:group_chat_app/pages/home_page.dart';
-import 'package:group_chat_app/services/auth_service.dart';
-import 'package:group_chat_app/widgets/widgets.dart';
+import '../../pages/auth/login_page.dart';
+import '../../pages/home_page.dart';
+import '../../services/auth_service.dart';
+import '../../widgets/widgets.dart';
 
 class ProfilePage extends StatefulWidget {
   String userName;

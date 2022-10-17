@@ -1,8 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:group_chat_app/pages/group_info.dart';
-import 'package:group_chat_app/services/database_service.dart';
-import 'package:group_chat_app/widgets/widgets.dart';
+import '../../pages/group_info.dart';
+import '../../services/database_service.dart';
+import '../../widgets/widgets.dart';
 
 import '../widgets/message_tile.dart';
 
