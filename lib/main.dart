@@ -1,6 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
-import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart';
 
 import 'helper/helper_function.dart';
 import 'pages/auth/login_page.dart';
@@ -58,6 +58,7 @@ class _MyAppState extends State<MyApp> {
           primaryColor: Constants().primaryColor,
           scaffoldBackgroundColor: Colors.white),
       debugShowCheckedModeBanner: false,
+      // if signed in navigate to homepage else to login page
       home: _isSignedIn ? const HomePage() : const LoginPage(),
     );
   }
