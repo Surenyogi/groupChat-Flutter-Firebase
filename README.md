@@ -4,4 +4,6 @@ A new Flutter/Firebase project for group chat app.
 
 ## Screenshot of the Application
 
-![MergedImages](https://user-images.githubusercontent.com/93629793/206469352-26a46283-45f9-4d1e-9a06-8c9909002a2a.png)
+
+
+![MergedImages (1)](https://user-images.githubusercontent.com/93629793/206472904-0579a2de-6bf2-4d2c-9ed3-5bf72de5efee.png)
